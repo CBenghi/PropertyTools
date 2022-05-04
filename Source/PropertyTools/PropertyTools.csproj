@@ -8,11 +8,16 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/PropertyTools/PropertyTools/</PackageProjectUrl>
     <Version>0.0.1</Version>
+    <PackageId>$(AssemblyName).DeploymentClone</PackageId>
+	  <Description>
+		  This package is just a compilation of the PropertyTools library.
+		  It is only intended to make library updates available faster than the normal release cycle of the original author.
+	  </Description>
   </PropertyGroup>
   <ItemGroup>
     <None Include="PropertyTools.snk" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\Images\icon.png" Pack="true" PackagePath="\"/>
+    <None Include="..\..\Images\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
